@@ -1,0 +1,20 @@
+---
+import ServerIslandButton from '@/components/ServerIslandButton.astro';
+import Layout from '@/layouts/Layout.astro';
+export const prerender = true;
+---
+
+<Layout>
+  <ServerIslandButton server:defer>
+    <h1 slot='fallback'>Loading</h1>
+  </ServerIslandButton>
+</Layout>
+
+<style>
+  h1 {
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    color: #fff;
+  }
+</style>

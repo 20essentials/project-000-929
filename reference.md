@@ -1,0 +1,2 @@
+- **Reference / Inspiration ⬇️**
+  - [Online Tutorials Video Inspiration Design Text Effect](https://youtu.be/oHpd7sp6xjU?si=j4WuWcP7yVJ72jCJ)
